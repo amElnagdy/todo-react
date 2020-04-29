@@ -1,0 +1,13 @@
+.right-grid {
+  margin-top: 0 !important;
+}
+.left-grid {
+  margin-bottom: 0 !important;
+}
+
+.site-header {
+  overflow: hidden;
+  background-color: orange;
+  padding: 20px 10px;
+  text-align: center;
+}
