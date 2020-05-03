@@ -1,8 +1,9 @@
 # Todo-it
 
-A simple Todo app built with React, Hooks and Context API
+A simple Todo app built with React, Hooks and Context API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [DEMO](https://todo-it-react.netlify.app/)
+
 
 ## Available Scripts
 
