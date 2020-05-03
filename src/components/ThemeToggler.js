@@ -13,6 +13,7 @@ const TogglerButton = (props) => {
       }}
       className="ui right floated button"
       onClick={props.toggleTheme}
+
     >
       Toggle Theme
     </button>

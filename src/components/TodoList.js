@@ -81,7 +81,7 @@ const TodoList = () => {
               border: "1px solid silver",
             }}
           >
-            <QuoteItem todos={todos} />
+            <QuoteItem />
           </div>
         </div>
       </div>

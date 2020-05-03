@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { ThemeContext } from "../context/theme-context";
 
-const QuoteItem = ({ todos }) => {
+const QuoteItem = () => {
   const theme = useContext(ThemeContext);
   const [quote, setQuote] = useState({
     text: "",
@@ -17,7 +17,7 @@ const QuoteItem = ({ todos }) => {
   };
   useEffect(() => {
     fetchQuotes();
-  }, []); //add todos as a dependancy if you want to change the quote with every change on the list of the todos
+  }, []);
 
   const changeQuote = (e) => {
     e.preventDefault();
